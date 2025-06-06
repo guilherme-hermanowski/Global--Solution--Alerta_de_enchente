@@ -1,4 +1,4 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+# FIAP - Faculdade de Inteligência Artificial
 
 <p align="center">
 <a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
@@ -7,15 +7,16 @@
 <br>
 
 # Nome do projeto
-
+Global solution
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Guilherme Campos Hermanowski </a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Gabriel Viel </a>
+- <a href="https://www.linkedin.com/company/inova-fusca"> Matheus Alboredo Soares</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">Jonathan Willian Luft </a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Fátima Candal</a>
+
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -24,40 +25,34 @@
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
 
 
-## 📜 Descrição
+## 📜 Sistema de Previsão de Enchentes
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
-
+*Desenvolver um sistema de previsão de enchentes utilizando Machine Learning, alimentado por dados de precipitação dos últimos 5 dias. O sistema visa fornecer alertas precoces para subsidiar decisões de mitigação de danos.*
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+Estrutura do Projeto
+1. esp32/ - Coleta de Dados (Hardware)
+Função: Coleta de dados de precipitação em tempo real (ou simulados) via microcontrolador ESP32.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+2. modelo/ - Modelagem e Treinamento de ML
+Função: Processamento de dados e treinamento do modelo preditivo.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+Principais Componentes:
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+Features:
+Precip_1d, Precip_3d, Precip_7d, Ratio_1d_7d, Acceleration, Impact_Score (derivadas da série temporal de 7 dias).
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+Modelo:
+Usamos KNN (K-Nearest Neighbors) para treinamento do modelo, como nossa base é sintetica, eliminamos a necessidade de normalização e tratamento.
 
-## 🔧 Como executar o código
+4. streamlit/ - Dashboard de Visualização
+Função: Interface interativa para monitoramento de dados e previsões.
+Visualização de dados históricos e previsões do modelo.
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
-
-
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+5. datasets/ - Gestão de Dados
+Conteúdo:
+Base de dados sintética feita com numpy, 25% de amostras de dias em enchentes e 75% com enchentes.
 
 ## 📋 Licença
 
