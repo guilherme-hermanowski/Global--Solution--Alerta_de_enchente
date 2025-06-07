@@ -68,6 +68,13 @@ Visualização de dados históricos e previsões do modelo.
 Conteúdo:
 Base de dados sintética feita com numpy, 25% de amostras de dias em enchentes e 75% com enchentes.
 
+Análise Exploratória de Dados (EDA) em R - Dados INMET SP
+
+Realizamos uma Análise Exploratória de Dados (EDA) no dataset Dados_INMET_2022_2024_SP_V2.csv para entender a estrutura dos dados, identificar padrões e relações entre as variáveis meteorológicas e a ocorrência de inundações. A análise revelou a presença de valores ausentes em algumas colunas e confirmou que a precipitação é um fator chave para as inundações.
+
+Para mais detalhes sobre a análise, incluindo estatísticas descritivas e visualizações, consulte o arquivo README_R_DETAILED.md.
+
+
 ## 📋 Licença
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
