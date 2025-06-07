@@ -52,8 +52,25 @@ Para visualizar a versão completa veja o arquivo, redme em ESP32
 3. modelo/ - Modelagem e Treinamento de ML
 Função: Processamento de dados e treinamento do modelo preditivo.
 
+Principais Componentes:
+- Python 3.10+
+
+- scikit-learn
+
+- pandas, numpy
+
+- matplotlib, seaborn
+
+- imbalanced-learn
+
+- joblib
+
+- streamlit
+
 Modelo:
-Usamos KNN (K-Nearest Neighbors) para treinamento do modelo, como nossa base é sintetica, eliminamos a necessidade de normalização e tratamento.
+- O modelo que escolhemos foi o KNN, selecionado após uma validação de acurácia e detectarmos que ele foi o que mais se destacou com uma taxa de acerto de 99%.
+- Após isso, utilizamos de Joblib para salvar o modelo e usar em outras aplicações
+- Por fim, criamos uma base de dados teste para verificar a eficência do modelo com outros dados e logo após exibimos o resultado com a exbição de um novo df.
 
 4. streamlit/ - Dashboard de Visualização
 Função: Interface interativa para monitoramento de dados e previsões.
