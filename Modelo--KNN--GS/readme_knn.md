@@ -1,4 +1,4 @@
-README
+## README
 
 Este projeto de machine learning tem como objetivo classificar a ocorrência de inundações com base em variáveis ambientais e urbanas. Após testes com múltiplos algoritmos, o modelo K-Nearest Neighbors (KNN) foi escolhido por apresentar alta acurácia e bom desempenho geral.
 Nosso treinamento foi feito com base em um arquivo csv extraido de nosso banco de dados SQL que foi alimentado com a base de dados do https://bdmep.inmet.gov.br.
