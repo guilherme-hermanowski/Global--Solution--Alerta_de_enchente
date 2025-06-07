@@ -6,9 +6,7 @@
 
 <br>
 
-# Nome do projeto
-Global solution
-## Nome do grupo
+# Global solution
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/company/inova-fusca">Guilherme Campos Hermanowski </a>
