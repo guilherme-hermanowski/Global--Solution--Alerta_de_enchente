@@ -52,11 +52,6 @@ Para visualizar a versão completa veja o arquivo, redme em ESP32
 3. modelo/ - Modelagem e Treinamento de ML
 Função: Processamento de dados e treinamento do modelo preditivo.
 
-Principais Componentes:
-
-Features:
-Precip_1d, Precip_3d, Precip_7d, Ratio_1d_7d, Acceleration, Impact_Score (derivadas da série temporal de 7 dias).
-
 Modelo:
 Usamos KNN (K-Nearest Neighbors) para treinamento do modelo, como nossa base é sintetica, eliminamos a necessidade de normalização e tratamento.
 
