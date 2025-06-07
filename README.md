@@ -68,7 +68,7 @@ Visualização de dados históricos e previsões do modelo.
 Conteúdo:
 Base de dados sintética feita com numpy, 25% de amostras de dias em enchentes e 75% com enchentes.
 
-Análise Exploratória de Dados (EDA) em R - Dados INMET SP
+6. Análise Exploratória de Dados (EDA) em R - Dados INMET SP
 
 Realizamos uma Análise Exploratória de Dados (EDA) no dataset Dados_INMET_2022_2024_SP_V2.csv para entender a estrutura dos dados, identificar padrões e relações entre as variáveis meteorológicas e a ocorrência de inundações. A análise revelou a presença de valores ausentes em algumas colunas e confirmou que a precipitação é um fator chave para as inundações.
 
