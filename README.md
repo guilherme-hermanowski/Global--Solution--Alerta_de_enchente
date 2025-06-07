@@ -34,7 +34,22 @@ Estrutura do Projeto
 1. esp32/ - Coleta de Dados (Hardware)
 Função: Coleta de dados de precipitação em tempo real (ou simulados) via microcontrolador ESP32.
 
-2. modelo/ - Modelagem e Treinamento de ML
+
+Pluviômetro Digital com ESP32 e Sensor HC-SR04
+Objetivo do Projeto
+Este projeto implementa um pluviômetro digital que mede a quantidade de chuva acumulada em um recipiente usando:
+
+Microcontrolador ESP32
+
+Sensor ultrassônico HC-SR04 para medição de distância
+
+Botão para acionamento manual das medições (versão experimental)
+
+A versão experimental com botão simula o funcionamento de um pluviômetro real que faria medições automáticas uma vez por dia.
+
+Para visualizar a versão completa veja o arquivo, redme em ESP32
+
+3. modelo/ - Modelagem e Treinamento de ML
 Função: Processamento de dados e treinamento do modelo preditivo.
 
 Principais Componentes:
